@@ -1,8 +1,8 @@
 <H1 align ="center" > MARIO JUMP  </h1>
 <h5  align ="center"> 
 Mario Jump is an endless running game inspired by the famous Google Chrome's T-Rex Dinosaur Game 🦖.  
-The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.  
-Play Here <a>https://www.npmjs.com/package/react</a> </h5>
+The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.  <br/>
+<a href="https://www.npmjs.com/package/react">Play Here</a> </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
