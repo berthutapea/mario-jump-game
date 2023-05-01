@@ -1,0 +1,47 @@
+.loading-screen-container {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #2D2D2D;
+    color: #EEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    z-index: 10;
+}
+
+.loading-mario {
+    width: 100px;
+    height: auto;
+}
+
+.loading-title {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    background-color: #E52521;
+    border-radius: 0.2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.enter-button {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    background-color: #FBD000;
+    color: #2D2D2D;
+    border-radius: 0.2rem;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+
+.enter-button:hover {
+    filter: saturate(10);
+}

@@ -1,0 +1,31 @@
+.App {
+  max-width: 1280px;
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  border: 0.5rem solid #EEE;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(255,134,134);
+  background: linear-gradient(0deg, rgba(255,134,134,1) 0%, rgba(2,233,242,1) 0%, rgba(44,127,247,1) 100%);
+  overflow: hidden;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+  .App {
+    width: 95%;
+    border: 0.2rem solid #EEE;
+  }
+}
+
+@media (max-width: 1024px) {
+  .App {
+    height: 50vh;
+    top: 40%;
+  }
+}

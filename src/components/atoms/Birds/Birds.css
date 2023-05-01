@@ -1,0 +1,41 @@
+.birds {
+    background-image: url("../../../assets/img/gif/birds.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left: 100vw;
+}
+
+.birds-animate {
+    animation-name: birds-animation;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes birds-animation {
+    0% {
+        left: 100vw;
+    }
+    100% {
+        left: -15vw;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .birds {
+        width: 80px;
+        top: 125px;
+    }
+}
+
+@media (max-width: 640px) {
+    .birds {
+        width: 60px;
+        top: 100px;
+    }
+}

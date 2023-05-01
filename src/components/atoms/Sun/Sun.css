@@ -1,0 +1,23 @@
+.sun {
+    background-image: url("../../../assets/img/gif/sun.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    right: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+    .sun {
+        width: 80px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sun {
+        right: 50px;
+    }
+}

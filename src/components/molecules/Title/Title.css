@@ -1,0 +1,31 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 25px 0px 0px 0px;
+}
+
+.mario-logo {
+    width: 80px;
+    height: auto;
+}
+
+.title {
+    font-size: 3rem;
+    color: #E52521;
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+    .title-container {
+        gap: 25px;
+    }
+    .mario-logo {
+        width: 50px;
+        height: auto;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+}

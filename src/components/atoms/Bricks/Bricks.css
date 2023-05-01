@@ -1,0 +1,39 @@
+.brick {
+    background-image: url("../../../assets/img/brick.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 120px;
+    width: 1000vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.brick-animate {
+    animation-name: bricks;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bricks {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: -1200px
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+    .brick {
+        height: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .brick {
+        height: 60px;
+    }
+}

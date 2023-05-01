@@ -1,0 +1,40 @@
+.clouds {
+    background-image: url("../../../assets/img/gif/clouds.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 120px;
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 100vw;
+}
+
+.clouds-animate {
+    animation-name: clouds-animation;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes clouds-animation {
+    0% {
+        left: 100vw;
+    }
+    100% {
+        left: -15vw;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    .clouds {
+        height: 100px;
+    }
+}
+
+@media (max-width: 640px) {
+    .clouds {
+        height: 80px;
+        top: 25px;
+    }
+}

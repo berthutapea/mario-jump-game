@@ -1,0 +1,76 @@
+.obstacles-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.obstacle1, .obstacle2 {
+    height: 60px;
+    width: auto;
+    position: absolute;
+    bottom: 120px;
+}
+
+.obstacle1 {
+    left: 120vw;
+}
+.obstacle2 {
+    left: 240vw;
+}
+
+.obstacle1-move {
+    animation-name: obstacle1-animation;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.obstacle2-move {
+    animation-name: obstacle2-animation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes obstacle1-animation {
+    0% {
+        left: 125vw;
+    }
+    100% {
+        left: -120vw;
+    }
+}
+
+@keyframes obstacle2-animation {
+    0% {
+        left: 240vw;
+    }
+    100% {
+        left: -240vw;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1280px) {
+    .obstacle1, .obstacle2 {
+        height: 50px;
+        bottom: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .obstacle1, .obstacle2 {
+        height: 40px;
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 640px) {
+    .obstacle1, .obstacle2 {
+        height: 30px;
+        bottom: 60px;
+    }
+}

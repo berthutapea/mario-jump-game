@@ -1,0 +1,39 @@
+@media (min-width: 1024px) {
+    .mobile-controls-container, .control-start-button, .control-jump-button {
+        display: none;
+    }
+}
+
+.mobile-controls-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 15vh;
+    transform: translateX(-50%);
+    margin: auto;
+}
+
+.control-start-button, .control-jump-button, .control-die-button {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    user-select: none;
+}
+
+.control-start-button:hover, .control-jump-button:hover {
+    filter: saturate(10);
+}
+
+.control-start-button, .control-die-button {
+    background-color: #E52521;
+}
+
+.control-jump-button {
+    background-color: #FBD000;
+}
