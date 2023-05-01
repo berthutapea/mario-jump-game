@@ -1,8 +1,8 @@
 <H1 align ="center" > MARIO JUMP  </h1>
 <h5  align ="center"> 
-**Mario Jump** is an endless running game inspired by the famous **Google Chrome's T-Rex Dinosaur Game 🦖**.  
+Mario Jump is an endless running game inspired by the famous Google Chrome's T-Rex Dinosaur Game 🦖.  
 The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.  
-Play Here: **[Mario Jump](https://helloukey.github.io/mario-jump)** </h5>
+Play Here <a>https://www.npmjs.com/package/react</a> </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
@@ -30,19 +30,6 @@ $ npm install
 $ npm start
 
 ```
-
-```
-#  ---  Config.env  ---
-
-VITE_API_KEY=your_api_key
-VITE_AUTH_DOMAIN=your_auth_domain
-VITE_PROJECT_ID=your_project_id
-VITE_STORAGE_BUCKET=your_storage_bucket
-VITE_MESSAGING_SENDER_ID=your_messaging_sender_id
-VITE_APP_ID=your_app_id
-
-```
-
 ##  Key Features
 
 - Mobile Responsive 
