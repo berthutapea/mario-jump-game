@@ -18,7 +18,6 @@ In order to run this project locally, simply fork and clone the repository or do
 
 - Open the project in your prefered code editor.
 - Go to terminal -> New terminal (If you are using VS code)
-- Split your terminal into two (run the mario-jump-game)
 
 In the first terminal
 
