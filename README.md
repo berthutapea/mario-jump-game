@@ -2,7 +2,7 @@
 <h5  align ="center"> 
 Mario Jump is an endless running game inspired by the famous Google Chrome's T-Rex Dinosaur Game 🦖.  
 The game is built entirely with ReactJS ⚛ and Redux Toolkit 🔧.  <br/>
-<a href="">Play Here 🎮</a> </h5>
+<a href="https://mariojumpp.vercel.app/">Play Here 🎮</a> </h5>
 <br/>
 
   * [Configuration and Setup](#configuration-and-setup)
@@ -47,6 +47,7 @@ This project was created using the following technologies.
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom) - To handle routing.
 - [Css](https://developer.mozilla.org/en-US/docs/Web/CSS) - For User Interface.
 - [React Redux](https://react-redux.js.org/) -Helps maintain consistency between state and views
+- [Redux Toolkit](https://redux-toolkit.js.org/) - To facilitate the development of web applications using Redux
  
  ##  Gameplay 
 
