@@ -1,13 +1,13 @@
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "../../App.css";
 import { useSelector } from "react-redux";
 import { Birds, Bricks, Clouds, Mario, Obstacles, Sun, KeyMessage, LoadingScreen, Score, MobileControls, Footer } from "../../components";
 
-function AppRoutes() {
+function Home() {
     const isPlay = useSelector((state) => state.engine.play);
-    const isLoading = useSelector((state) => state.engine.loadingScreen);
     return (
         <>
-            {isLoading && <LoadingScreen />}
             <div className="App">
                 {!isPlay && <KeyMessage />}
                 <Bricks />
@@ -21,6 +21,18 @@ function AppRoutes() {
             <MobileControls />
             <Footer />
         </>
+    );
+}
+
+function AppRoutes() {
+    const isLoading = useSelector((state) => state.engine.loadingScreen);
+    return (
+        <BrowserRouter>
+            {isLoading && <LoadingScreen />}
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
