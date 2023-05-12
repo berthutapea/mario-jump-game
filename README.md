@@ -54,7 +54,7 @@ This project was created using the following technologies.
 ![mario-jump-game](https://user-images.githubusercontent.com/111676859/235500789-7561dfe0-642b-41b2-bb6a-8274c158c0fc.gif)
 
 ## Author
-
+- Portfolio: [berthutapea](https://berthutapea.vercel.app/)
 - Github: [@bert-hutapea](https://github.com/berthutapea)
 - Linkedin: [@gilbert-hutapea](https://www.linkedin.com/in/gilberthutapea/)
 - Email: [berthutapea@gmail.com](mailto:berthutapea@gmail.com)
