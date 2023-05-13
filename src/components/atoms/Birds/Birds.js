@@ -24,4 +24,4 @@ const Birds = () => {
     </div>
   )
 }
-export default Birds
+export default Birds;
